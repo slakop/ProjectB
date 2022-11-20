@@ -1,1 +1,2 @@
-print("hello world")
+def state_1():
+	return 5

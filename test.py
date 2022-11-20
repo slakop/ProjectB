@@ -1,4 +1,5 @@
 import pytest
+import main
 
 def setup_module(module):
     #init_something()
@@ -13,6 +14,9 @@ def test_upper():
     
 def test_isupper():
     assert 'FOO'.isupper()
+
+def test_1():
+    assert main.state_1() == 5
     
 #def test_failed_upper():
 #    assert 'foo'.upper() == 'FOo'
